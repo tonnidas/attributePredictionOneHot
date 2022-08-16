@@ -1,0 +1,476 @@
+[1] "Predicting Status"
+[1] "Test_True_Labels"
+[1] 1 2 5 4 6 3
+[1] "knn_prc_test_pred"
+[1] 1 2 5 3
+Levels: 1 2 3 4 5 6
+[1] "NB_Actual_Attri_Values"
+[1] 1 2 5 4 6 3
+Loading required package: ggplot2
+Loading required package: lattice
+Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+Loading required package: rpart
+[1] "DT_Actual_Attri_Values"
+[1] 1 2 5 4 6 3
+Warning: Variable(s) ‘Column_246’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_394’ and ‘Column_403’ and ‘Column_415’ and ‘Column_433’ and ‘Column_440’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_463’ and ‘Column_471’ and ‘Column_476’ and ‘Column_488’ and ‘Column_522’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_623’ and ‘Column_666’ and ‘Column_670’ and ‘Column_681’ and ‘Column_691’ and ‘Column_706’ and ‘Column_713’ and ‘Column_767’ and ‘Column_791’ and ‘Column_793’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_953’ and ‘Column_966’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1177’ and ‘Column_1205’ and ‘Column_1206’ and ‘Column_1231’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1381’ and ‘Column_1435’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1473’ and ‘Column_1502’ and ‘Column_1577’ and ‘Column_1591’ and ‘Column_1601’ and ‘Column_1660’ and ‘Column_1661’ and ‘Column_1707’ and ‘Column_1718’ and ‘Column_1740’ and ‘Column_1767’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1843’ and ‘Column_1849’ and ‘Column_1873’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1924’ and ‘Column_2063’ and ‘Column_2077’ and ‘Column_2173’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2277’ and ‘Column_2285’ and ‘Column_2312’ and ‘Column_2324’ and ‘Column_2400’ and ‘Column_2423’ and ‘Column_2502’ and ‘Column_2523’ and ‘Column_2540’ and ‘Column_2597’ and ‘Column_2612’ and ‘Column_2653’ and ‘Column_2728’ and ‘Column_2761’ constant. Cannot scale data.[1] "SVM_Actual_Attri_Values"
+[1] 1 2 5 4 6 3
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,]  0.00000
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+         [,1]
+[1,] 78.79956
+[2,]  0.00000
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "DT_Final_Accuracy"
+         [,1]
+[1,] 86.83921
+[2,]  0.00000
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "SVM_Final_Accuracy"
+         [,1]
+[1,] 81.57122
+[2,]  0.00000
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+
+
+[1] "Predicting gender"
+[1] "Test_True_Labels"
+[1] 1 2
+[1] "knn_prc_test_pred"
+[1] 1 2
+Levels: 1 2
+[1] "NB_Actual_Attri_Values"
+[1] 1 2
+[1] "DT_Actual_Attri_Values"
+[1] 1 2
+Warning: Variable(s) ‘Column_246’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_415’ and ‘Column_427’ and ‘Column_433’ and ‘Column_440’ and ‘Column_447’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_476’ and ‘Column_488’ and ‘Column_495’ and ‘Column_522’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_623’ and ‘Column_627’ and ‘Column_666’ and ‘Column_668’ and ‘Column_670’ and ‘Column_684’ and ‘Column_691’ and ‘Column_706’ and ‘Column_767’ and ‘Column_791’ and ‘Column_825’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_953’ and ‘Column_966’ and ‘Column_983’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1177’ and ‘Column_1205’ and ‘Column_1231’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1297’ and ‘Column_1312’ and ‘Column_1381’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1468’ and ‘Column_1473’ and ‘Column_1577’ and ‘Column_1591’ and ‘Column_1601’ and ‘Column_1661’ and ‘Column_1740’ and ‘Column_1767’ and ‘Column_1777’ and ‘Column_1793’ and ‘Column_1813’ and ‘Column_1849’ and ‘Column_1873’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1947’ and ‘Column_2063’ and ‘Column_2084’ and ‘Column_2211’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2223’ and ‘Column_2232’ and ‘Column_2281’ and ‘Column_2285’ and ‘Column_2305’ and ‘Column_2312’ and ‘Column_2324’ and ‘Column_2400’ and ‘Column_2423’ and ‘Column_2502’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2653’ and ‘Column_2725’ and ‘Column_2728’ constant. Cannot scale data.[1] "SVM_Actual_Attri_Values"
+[1] 1 2
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,] 59.78605
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+         [,1]
+[1,] 78.79956
+[2,] 57.23059
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "DT_Final_Accuracy"
+         [,1]
+[1,] 86.83921
+[2,] 60.85578
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "SVM_Final_Accuracy"
+         [,1]
+[1,] 81.57122
+[2,] 56.95325
+[3,]  0.00000
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+
+
+[1] "Predicting Major"
+[1] "Test_True_Labels"
+ [1] 140 162 146 156 135 138 132 141 127 139 173 115 154 106 107 174 144 133 128 113 169 160 116 158 157 159 161 111 176 118 121 110 167 123 112 122 131 155 152 125 120
+[42] 130 172 129 153 148 143 136 124 170 109 145 168 114 165 175 149 147 119 164 126 177 171 142 163 117 151 108 134 150 178
+[1] "knn_prc_test_pred"
+ [1] 131 122 118 107 156 115 154 127 140 142 148 132 157 116 158 160 123 121 139 133 128 150 176 149 165 146 120 136 141 138 153 135 162 168 161 163 130 167 113 144 109
+[42] 159 169 174 143 114 126 110 152 124 117 111 106 155 173 119 175 108 129 112 125 177
+72 Levels: 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 ... 178
+[1] "NB_Actual_Attri_Values"
+ [1] 140 162 146 156 135 138 132 141 127 139 173 115 154 106 107 174 144 133 128 113 169 160 116 158 157 159 161 111 176 118 121 110 167 123 112 122 131 155 152 125 120
+[42] 130 172 129 153 148 143 136 124 170 109 145 168 114 165 175 149 147 119 164 126 177 171 142 163 117 151 108 134 150 178
+[1] "DT_Actual_Attri_Values"
+ [1] 140 162 146 156 135 138 132 141 127 139 173 115 154 106 107 174 144 133 128 113 169 160 116 158 157 159 161 111 176 118 121 110 167 123 112 122 131 155 152 125 120
+[42] 130 172 129 153 148 143 136 124 170 109 145 168 114 165 175 149 147 119 164 126 177 171 142 163 117 151 108 134 150 178
+Warning: Variable(s) ‘Column_246’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_388’ and ‘Column_415’ and ‘Column_427’ and ‘Column_433’ and ‘Column_440’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_463’ and ‘Column_471’ and ‘Column_476’ and ‘Column_483’ and ‘Column_488’ and ‘Column_520’ and ‘Column_522’ and ‘Column_550’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_606’ and ‘Column_617’ and ‘Column_623’ and ‘Column_627’ and ‘Column_666’ and ‘Column_670’ and ‘Column_684’ and ‘Column_691’ and ‘Column_706’ and ‘Column_762’ and ‘Column_791’ and ‘Column_795’ and ‘Column_841’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_953’ and ‘Column_966’ and ‘Column_983’ and ‘Column_992’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1031’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1177’ and ‘Column_1178’ and ‘Column_1180’ and ‘Column_1205’ and ‘Column_1231’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1299’ and ‘Column_1305’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1336’ and ‘Column_1381’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1473’ and ‘Column_1497’ and ‘Column_1577’ and ‘Column_1601’ and ‘Column_1661’ and ‘Column_1698’ and ‘Column_1707’ and ‘Column_1740’ and ‘Column_1769’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1811’ and ‘Column_1834’ and ‘Column_1849’ and ‘Column_1873’ and ‘Column_1882’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_2036’ and ‘Column_2063’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2232’ and ‘Column_2285’ and ‘Column_2305’ and ‘Column_2312’ and ‘Column_2324’ and ‘Column_2400’ and ‘Column_2423’ and ‘Column_2454’ and ‘Column_2490’ and ‘Column_2502’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2653’ and ‘Column_2655’ and ‘Column_2662’ and ‘Column_2728’ and ‘Column_2761’ constant. Cannot scale data.[1] 
+"SVM_Actual_Attri_Values"
+ [1] 140 162 146 156 135 138 132 141 127 139 173 115 154 106 107 174 144 133 128 113 169 160 116 158 157 159 161 111 176 118 121 110 167 123 112 122 131 155 152 125 120
+[42] 130 172 129 153 148 143 136 124 170 109 145 168 114 165 175 149 147 119 164 126 177 171 142 163 117 151 108 134 150 178
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,] 59.78605
+[3,] 11.05614
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+         [,1]
+[1,] 78.79956
+[2,] 57.23059
+[3,] 10.49688
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "DT_Final_Accuracy"
+         [,1]
+[1,] 86.83921
+[2,] 60.85578
+[3,] 17.18649
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "SVM_Final_Accuracy"
+         [,1]
+[1,] 81.57122
+[2,] 56.95325
+[3,] 10.17423
+[4,]  0.00000
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+
+
+[1] "Predicting Minor"
+[1] "Test_True_Labels"
+ [1] 133 139 116 127 143 118 157 113 174 132 135 176 128 158 107 136 126 160 144 140 122 156 112 148 162 115 155 169 175 106 129 109 131 154 121 114 138 123 167 130 145
+[42] 165 149 168 173 177 111 151 146 120 172 159 124 152 141 108 117 110 163 171 119 153 161 170 147 137 134 166 125 142 178 150
+[1] "knn_prc_test_pred"
+ [1] 123 118 109 113 107 144 128 139 127 115 116 156 157 161 158 143 146 140 122 175 133 141 176 121 131 167 124 165 154 110 171 148 163 153 137 168 111 138 135 129 114
+[42] 132 142 126 120 155 151 136 169 106 159 172 173 152 108 130 145 166 160 177 119 112
+73 Levels: 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 ... 178
+[1] "NB_Actual_Attri_Values"
+ [1] 133 139 116 127 143 118 157 113 174 132 135 176 128 158 107 136 126 160 144 140 122 156 112 148 162 115 155 169 175 106 129 109 131 154 121 114 138 123 167 130 145
+[42] 165 149 168 173 177 111 151 146 120 172 159 124 152 141 108 117 110 163 171 119 153 161 170 147 137 134 166 125 142 178 150
+[1] "DT_Actual_Attri_Values"
+ [1] 133 139 116 127 143 118 157 113 174 132 135 176 128 158 107 136 126 160 144 140 122 156 112 148 162 115 155 169 175 106 129 109 131 154 121 114 138 123 167 130 145
+[42] 165 149 168 173 177 111 151 146 120 172 159 124 152 141 108 117 110 163 171 119 153 161 170 147 137 134 166 125 142 178 150
+Warning: Variable(s) ‘Column_246’ and ‘Column_263’ and ‘Column_266’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_388’ and ‘Column_394’ and ‘Column_403’ and ‘Column_415’ and ‘Column_427’ and ‘Column_433’ and ‘Column_440’ and ‘Column_447’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_471’ and ‘Column_476’ and ‘Column_488’ and ‘Column_520’ and ‘Column_522’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_607’ and ‘Column_623’ and ‘Column_627’ and ‘Column_644’ and ‘Column_666’ and ‘Column_667’ and ‘Column_668’ and ‘Column_670’ and ‘Column_681’ and ‘Column_684’ and ‘Column_691’ and ‘Column_706’ and ‘Column_713’ and ‘Column_716’ and ‘Column_767’ and ‘Column_770’ and ‘Column_773’ and ‘Column_791’ and ‘Column_793’ and ‘Column_795’ and ‘Column_825’ and ‘Column_826’ and ‘Column_848’ and ‘Column_865’ and ‘Column_869’ and ‘Column_874’ and ‘Column_879’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_907’ and ‘Column_911’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_946’ and ‘Column_953’ and ‘Column_966’ and ‘Column_983’ and ‘Column_992’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1084’ and ‘Column_1113’ and ‘Column_1119’ and ‘Column_1120’ and ‘Column_1121’ and ‘Column_1124’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1135’ and ‘Column_1138’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1156’ and ‘Column_1177’ and ‘Column_1178’ and ‘Column_1180’ and ‘Column_1205’ and ‘Column_1206’ and ‘Column_1231’ and ‘Column_1232’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1299’ and ‘Column_1305’ and ‘Column_1310’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1344’ and ‘Column_1381’ and ‘Column_1402’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1473’ and ‘Column_1486’ and ‘Column_1497’ and ‘Column_1502’ and ‘Column_1532’ and ‘Column_1577’ and ‘Column_1582’ and ‘Column_1601’ and ‘Column_1635’ and ‘Column_1638’ and ‘Column_1660’ and ‘Column_1661’ and ‘Column_1698’ and ‘Column_1707’ and ‘Column_1739’ and ‘Column_1740’ and ‘Column_1754’ and ‘Column_1766’ and ‘Column_1767’ and ‘Column_1769’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1813’ and ‘Column_1834’ and ‘Column_1849’ and ‘Column_1873’ and ‘Column_1874’ and ‘Column_1882’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1924’ and ‘Column_1931’ and ‘Column_1933’ and ‘Column_1947’ and ‘Column_1950’ and ‘Column_1968’ and ‘Column_1989’ and ‘Column_2036’ and ‘Column_2041’ and ‘Column_2063’ and ‘Column_2084’ and ‘Column_2091’ and ‘Column_2173’ and ‘Column_2189’ and ‘Column_2208’ and ‘Column_2211’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2222’ and ‘Column_2223’ and ‘Column_2232’ and ‘Column_2261’ and ‘Column_2281’ and ‘Column_2285’ and ‘Column_2305’ and ‘Column_2312’ and ‘Column_2320’ and ‘Column_2324’ and ‘Column_2332’ and ‘Column_2334’ and ‘Column_2342’ and ‘Column_2379’ and ‘Column_2400’ and ‘Column_2417’ and ‘Column_2423’ and ‘Column_2454’ and ‘Column_2467’ and ‘Column_2476’ and ‘Column_2490’ and ‘Column_2502’ and ‘Column_2504’ and ‘Column_2518’ and ‘Column_2535’ and ‘Column_2562’ and ‘Column_2564’ and ‘Column_2584’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2612’ and ‘Column_2614’ and ‘Column_2653’ and ‘Column_2655’ and ‘Column_2691’ and ‘Column_2700’ and ‘Column_2724’ and ‘Column_2728’ and ‘Column_2735’ and ‘Column_2761’ constant. Cannot scale data.[1] "SVM_Actual_Attri_Values"
+ [1] 133 139 116 127 143 118 157 113 174 132 135 176 128 158 107 136 126 160 144 140 122 156 112 148 162 115 155 169 175 106 129 109 131 154 121 114 138 123 167 130 145
+[42] 165 149 168 173 177 111 151 146 120 172 159 124 152 141 108 117 110 163 171 119 153 161 170 147 137 134 166 125 142 178 150
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,] 59.78605
+[3,] 11.05614
+[4,]  6.60165
+[5,]  0.00000
+[6,]  0.00000
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+          [,1]
+[1,] 78.799559
+[2,] 57.230586
+[3,] 10.496881
+[4,]  8.814704
+[5,]  0.000000
+[6,]  0.000000
+[7,]  0.000000
+[1] "DT_Final_Accuracy"
+          [,1]
+[1,] 86.839207
+[2,] 60.855784
+[3,] 17.186492
+[4,]  9.414854
+[5,]  0.000000
+[6,]  0.000000
+[7,]  0.000000
+[1] "SVM_Final_Accuracy"
+          [,1]
+[1,] 81.571219
+[2,] 56.953249
+[3,] 10.174231
+[4,]  9.414854
+[5,]  0.000000
+[6,]  0.000000
+[7,]  0.000000
+
+
+[1] "Predicting Dorm"
+[1] "Test_True_Labels"
+ [1] 282 206 231 213 283 212 214 202 291 234 203 220 229 289 218 228 221 215 239 205 209 290 224 227 281 292 223 217 210 219 279 242 233 226 238 216 204 288 286 208 287
+[42] 284 225 254 251 240 277 211 247 232 207 275 256 236 278 255 258 272 263 235 257 285 241 280 230 273 252 267 243 253 262 248 261 246 250 271 266 274 244 245 237 260
+[83] 276 249 269
+[1] "knn_prc_test_pred"
+ [1] 204 214 231 213 220 212 218 291 234 203 210 229 272 281 228 223 282 215 202 290 211 227 292 226 217 205 257 224 239 242 233 230 206 286 243 287 277 225 254 288 216
+[42] 251 219 240 247 232 279 258 236 209 245 255 263 235 273 241 278 275 238 280 284 221 252 283 256 253 285 207 208 246 244 267 276 261 274
+93 Levels: 1 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 ... 316
+[1] "NB_Actual_Attri_Values"
+ [1] 282 206 231 213 283 212 214 202 291 234 203 220 229 289 218 228 221 215 239 205 209 290 224 227 281 292 223 217 210 219 279 242 233 226 238 216 204 288 286 208 287
+[42] 284 225 254 251 240 277 211 247 232 207 275 256 236 278 255 258 272 263 235 257 285 241 280 230 273 252 267 243 253 262 248 261 246 250 271 266 274 244 245 237 260
+[83] 276 249 269
+[1] "DT_Actual_Attri_Values"
+ [1] 282 206 231 213 283 212 214 202 291 234 203 220 229 289 218 228 221 215 239 205 209 290 224 227 281 292 223 217 210 219 279 242 233 226 238 216 204 288 286 208 287
+[42] 284 225 254 251 240 277 211 247 232 207 275 256 236 278 255 258 272 263 235 257 285 241 280 230 273 252 267 243 253 262 248 261 246 250 271 266 274 244 245 237 260
+[83] 276 249 269
+Warning: Variable(s) ‘Column_79’ and ‘Column_246’ and ‘Column_259’ and ‘Column_266’ and ‘Column_282’ and ‘Column_286’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_316’ and ‘Column_324’ and ‘Column_325’ and ‘Column_331’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_388’ and ‘Column_394’ and ‘Column_415’ and ‘Column_427’ and ‘Column_433’ and ‘Column_440’ and ‘Column_447’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_463’ and ‘Column_471’ and ‘Column_476’ and ‘Column_478’ and ‘Column_482’ and ‘Column_488’ and ‘Column_495’ and ‘Column_504’ and ‘Column_522’ and ‘Column_550’ and ‘Column_556’ and ‘Column_562’ and ‘Column_585’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_620’ and ‘Column_623’ and ‘Column_627’ and ‘Column_638’ and ‘Column_640’ and ‘Column_644’ and ‘Column_665’ and ‘Column_666’ and ‘Column_668’ and ‘Column_670’ and ‘Column_671’ and ‘Column_684’ and ‘Column_686’ and ‘Column_691’ and ‘Column_704’ and ‘Column_706’ and ‘Column_716’ and ‘Column_718’ and ‘Column_731’ and ‘Column_762’ and ‘Column_768’ and ‘Column_770’ and ‘Column_773’ and ‘Column_791’ and ‘Column_793’ and ‘Column_795’ and ‘Column_825’ and ‘Column_853’ and ‘Column_861’ and ‘Column_866’ and ‘Column_869’ and ‘Column_873’ and ‘Column_882’ and ‘Column_883’ and ‘Column_902’ and ‘Column_906’ and ‘Column_911’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_941’ and ‘Column_946’ and ‘Column_952’ and ‘Column_953’ and ‘Column_966’ and ‘Column_968’ and ‘Column_983’ and ‘Column_988’ and ‘Column_992’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1015’ and ‘Column_1022’ and ‘Column_1027’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1047’ and ‘Column_1065’ and ‘Column_1072’ and ‘Column_1082’ and ‘Column_1083’ and ‘Column_1084’ and ‘Column_1108’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1135’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1167’ and ‘Column_1177’ and ‘Column_1178’ and ‘Column_1180’ and ‘Column_1200’ and ‘Column_1205’ and ‘Column_1206’ and ‘Column_1216’ and ‘Column_1231’ and ‘Column_1232’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1266’ and ‘Column_1288’ and ‘Column_1292’ and ‘Column_1297’ and ‘Column_1299’ and ‘Column_1305’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1332’ and ‘Column_1344’ and ‘Column_1381’ and ‘Column_1395’ and ‘Column_1402’ and ‘Column_1426’ and ‘Column_1444’ and ‘Column_1465’ and ‘Column_1467’ and ‘Column_1473’ and ‘Column_1477’ and ‘Column_1487’ and ‘Column_1497’ and ‘Column_1502’ and ‘Column_1514’ and ‘Column_1526’ and ‘Column_1530’ and ‘Column_1532’ and ‘Column_1564’ and ‘Column_1577’ and ‘Column_1586’ and ‘Column_1591’ and ‘Column_1601’ and ‘Column_1635’ and ‘Column_1638’ and ‘Column_1642’ and ‘Column_1660’ and ‘Column_1661’ and ‘Column_1688’ and ‘Column_1697’ and ‘Column_1698’ and ‘Column_1718’ and ‘Column_1740’ and ‘Column_1763’ and ‘Column_1766’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1792’ and ‘Column_1793’ and ‘Column_1802’ and ‘Column_1811’ and ‘Column_1833’ and ‘Column_1834’ and ‘Column_1837’ and ‘Column_1849’ and ‘Column_1873’ and ‘Column_1880’ and ‘Column_1882’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1924’ and ‘Column_1931’ and ‘Column_1950’ and ‘Column_1968’ and ‘Column_1989’ and ‘Column_2004’ and ‘Column_2040’ and ‘Column_2041’ and ‘Column_2057’ and ‘Column_2058’ and ‘Column_2063’ and ‘Column_2069’ and ‘Column_2071’ and ‘Column_2077’ and ‘Column_2080’ and ‘Column_2089’ and ‘Column_2090’ and ‘Column_2097’ and ‘Column_2102’ and ‘Column_2157’ and ‘Column_2167’ and ‘Column_2173’ and ‘Column_2208’ and ‘Column_2211’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2223’ and ‘Column_2232’ and ‘Column_2240’ and ‘Column_2261’ and ‘Column_2277’ and ‘Column_2285’ and ‘Column_2294’ and ‘Column_2302’ and ‘Column_2305’ and ‘Column_2312’ and ‘Column_2324’ and ‘Column_2332’ and ‘Column_2346’ and ‘Column_2353’ and ‘Column_2357’ and ‘Column_2358’ and ‘Column_2361’ and ‘Column_2366’ and ‘Column_2379’ and ‘Column_2400’ and ‘Column_2402’ and ‘Column_2423’ and ‘Column_2454’ and ‘Column_2459’ and ‘Column_2474’ and ‘Column_2476’ and ‘Column_2484’ and ‘Column_2490’ and ‘Column_2502’ and ‘Column_2518’ and ‘Column_2521’ and ‘Column_2525’ and ‘Column_2535’ and ‘Column_2540’ and ‘Column_2541’ and ‘Column_2562’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2603’ and ‘Column_2611’ and ‘Column_2612’ and ‘Column_2614’ and ‘Column_2642’ and ‘Column_2643’ and ‘Column_2655’ and ‘Column_2662’ and ‘Column_2675’ and ‘Column_2684’ and ‘Column_2691’ and ‘Column_2695’ and ‘Column_2725’ and ‘Column_2728’ and ‘Column_2730’ and ‘Column_2735’ and ‘Column_2743’ and ‘Column_2751’ and ‘Column_2761’ and ‘Column_2768’ constant. Cannot scale data.[1] "SVM_Actual_Attri_Values"
+ [1] 282 206 231 213 283 212 214 202 291 234 203 220 229 289 218 228 221 215 239 205 209 290 224 227 281 292 223 217 210 219 279 242 233 226 238 216 204 288 286 208 287
+[42] 284 225 254 251 240 277 211 247 232 207 275 256 236 278 255 258 272 263 235 257 285 241 280 230 273 252 267 243 253 262 248 261 246 250 271 266 274 244 245 237 260
+[83] 276 249 269
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,] 59.78605
+[3,] 11.05614
+[4,]  6.60165
+[5,] 45.60623
+[6,]  0.00000
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+          [,1]
+[1,] 78.799559
+[2,] 57.230586
+[3,] 10.496881
+[4,]  8.814704
+[5,]  9.454950
+[6,]  0.000000
+[7,]  0.000000
+[1] "DT_Final_Accuracy"
+          [,1]
+[1,] 86.839207
+[2,] 60.855784
+[3,] 17.186492
+[4,]  9.414854
+[5,] 28.142380
+[6,]  0.000000
+[7,]  0.000000
+[1] "SVM_Final_Accuracy"
+          [,1]
+[1,] 81.571219
+[2,] 56.953249
+[3,] 10.174231
+[4,]  9.414854
+[5,] 18.761587
+[6,]  0.000000
+[7,]  0.000000
+
+
+
+[1] "Predicting Year"
+[1] "Test_True_Labels"
+ [1] 2005 2007 2006 2009 2008 2003 2004 2010 1996 1944 2001 2002 1967 1999 1969 1994 1990 1926 1988 1986 1900 1997 1998 1981
+[1] "knn_prc_test_pred"
+[1] 2005 2007 2006 2009 2008 2003 2004 2002
+36 Levels: 1900 1951 1953 1957 1959 1966 1969 1972 1973 1974 1978 1980 1981 1984 1987 1988 1989 1990 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 ... 2010
+[1] "NB_Actual_Attri_Values"
+ [1] 2005 2007 2006 2009 2008 2003 2004 2010 1996 1944 2001 2002 1967 1999 1969 1994 1990 1926 1988 1986 1900 1997 1998 1981
+[1] "DT_Actual_Attri_Values"
+ [1] 2005 2007 2006 2009 2008 2003 2004 2010 1996 1944 2001 2002 1967 1999 1969 1994 1990 1926 1988 1986 1900 1997 1998 1981
+Warning: Variable(s) ‘Column_246’ and ‘Column_263’ and ‘Column_266’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_368’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_415’ and ‘Column_433’ and ‘Column_440’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_463’ and ‘Column_476’ and ‘Column_488’ and ‘Column_520’ and ‘Column_522’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_623’ and ‘Column_666’ and ‘Column_670’ and ‘Column_691’ and ‘Column_706’ and ‘Column_712’ and ‘Column_773’ and ‘Column_791’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_907’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_946’ and ‘Column_953’ and ‘Column_966’ and ‘Column_983’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1177’ and ‘Column_1205’ and ‘Column_1206’ and ‘Column_1231’ and ‘Column_1232’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1297’ and ‘Column_1299’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1332’ and ‘Column_1381’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1473’ and ‘Column_1497’ and ‘Column_1526’ and ‘Column_1532’ and ‘Column_1577’ and ‘Column_1591’ and ‘Column_1601’ and ‘Column_1638’ and ‘Column_1661’ and ‘Column_1740’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1813’ and ‘Column_1834’ and ‘Column_1837’ and ‘Column_1843’ and ‘Column_1873’ and ‘Column_1882’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1924’ and ‘Column_1947’ and ‘Column_2036’ and ‘Column_2041’ and ‘Column_2057’ and ‘Column_2063’ and ‘Column_2077’ and ‘Column_2173’ and ‘Column_2211’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2223’ and ‘Column_2232’ and ‘Column_2261’ and ‘Column_2277’ and ‘Column_2285’ and ‘Column_2312’ and ‘Column_2400’ and ‘Column_2423’ and ‘Column_2502’ and ‘Column_2504’ and ‘Column_2512’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2612’ and ‘Column_2614’ and ‘Column_2728’ constant. Cannot scale data.[1] "SVM_Actual_Attri_Values"
+ [1] 2005 2007 2006 2009 2008 2003 2004 2010 1996 1944 2001 2002 1967 1999 1969 1994 1990 1926 1988 1986 1900 1997 1998 1981
+[1] "Final_Accuracy"
+         [,1]
+[1,] 86.52717
+[2,] 59.78605
+[3,] 11.05614
+[4,]  6.60165
+[5,] 45.60623
+[6,] 78.34662
+[7,]  0.00000
+[1] "NB_Final_Accuracy"
+          [,1]
+[1,] 78.799559
+[2,] 57.230586
+[3,] 10.496881
+[4,]  8.814704
+[5,]  9.454950
+[6,] 30.109106
+[7,]  0.000000
+[1] "DT_Final_Accuracy"
+          [,1]
+[1,] 86.839207
+[2,] 60.855784
+[3,] 17.186492
+[4,]  9.414854
+[5,] 28.142380
+[6,] 76.584138
+[7,]  0.000000
+[1] "SVM_Final_Accuracy"
+          [,1]
+[1,] 81.571219
+[2,] 56.953249
+[3,] 10.174231
+[4,]  9.414854
+[5,] 18.761587
+[6,] 74.632816
+[7,]  0.000000
+
+
+
+[1] "Predicting High_School"
+[1] "Test_True_Labels"
+   [1] 18236 10216 18558 18446 15244 18166 18591 58523 18269  9214 18427 18330  9139  2333 25278 18230 18585  3735 18587  9563 18320 18294 18554 25387 18327 18243  2734
+  [28] 18250 18541 55100 18246 24093 50688 52279 18590 18559 18555 18532 50726 50080 51639 18358 18208 18202 18295 18495 18376  3762 18557 18258 18245 18346 18683 18670
+  [55] 18509 18412 18623 18696 18289 18406 50961 51318 25191 18405 50611 18203 50903 18169 51730 18211 50449 18418 18654 18604 18352 18657 18362 22361 18366 50922 50958
+  [82] 51624 16202 51608 18343 18282 61118 18677 18589 18432 50064 18173 59747 18685 18700 18171 18222 18185 54063 18675 18233 18342 18397 22559  9070  4934 18494 50437
+ [109] 22359 21094 18439 50331 10943 18553 50181 18550 18680  9130 18369 18460 18698 18674 18371 23058 50512 18663 18484 50701  4377 17191  5999 18372 50049 18232 54886
+ [136] 18163  4423  4657 18225 50901 25475 18348 18485 18374 20898 52128 50232 18548 51177 50029 18217  1344 18545 54606 50087 18597 18240  9831 18297 58637 18673 56531
+ [163] 51239 50083 18419 16849  4828 18367 18389 50864 19095 18252 50569  3716 52205 17137  4786  2105 18645 18578 51240 18618  9557  2657 18602 23143 58876 18434 18598
+ [190] 23329 25366 50359 51578 18206   593 18347   255 50202 18660 18280  2763  1083 50026  3683 22552 18603 18408 18340 18443 50759 18238 18401 50003 18326  3807 50212
+ [217] 18268  3841 51733 18452 50781 17886 18616  5000 22307 18422 18296   181 16783 16414 22535 50025 56448 26361 20853 54563  7992 18178 18218 18475 18505 18526 18699
+ [244]  7864 18504 18575 18530  6655 18183 50625 17163 17097  7287 56542  4514 50821 17081 18690 51710 18170 18364 17655 18650 22444 18686 25204 16136  3682 17320 54705
+ [271] 15943 18560 17719 50330 50073 16268 18336   475 18308 18522  9078  5978 18534 51186 21792 19860 51147  5126 21411 18441 18237 18393 51985 16432 18284 21242 50050
+ [298] 21240  5641 18489 18499 18267 16763 18566 50053  3172 50453 18586 18375  9105 50693 50143 23341 50542 21172 53651 50362 52954 18190 17486  8152  4001 25156 17641
+ [325] 50294 16326 23072 50963 50540 51060 25466   499 52554 50250 50329 18194 20557  3062 50136  4422 10147  9073 52819 53084  8357 11872 25078 17307 18228 26420  5047
+ [352] 17042 18617 18640 16793 50075 18636 16168 50223 18300   474 18479  9774 18531 18501 22364 18188 18187  9161 18213 18192 18455 18249 18196 18339  5102 53088 17584
+ [379]  3601 22827  4568 12931 18416 18647  5260 18493 17296    34  9128 16008 18195 24553 16036 17537  2432 50515 50056  8112  3858 21021 25098 53585  4545 25272 50381
+ [406]  3811 18305 16399 53862 18395 50632  3908 52555 10266 18323 18425  6620 52388 18442 25223 25431 17108  6101 18468 18279  9244 18464  9267 18491 18481  4662 55419
+ [433]  3756 18648 51535 19608 16385 51738 50996  5003 18255 18697 19312 18292 26344 18538 18547 16128 22311 18536 50583 18581  4639 18161 15836 23168 18281 18437 18608
+ [460] 18272 16010 18311 53336  9077 18599  4560 17060  4020  9230 53869 57714 18314 50138 16107 18317 50930  9678 52003 23146 18635   245 18600  6399 50642 52297 54192
+ [487] 23623 12305 18407  9344  4800 52021 57524  3842 18244 60892 18438 18302 55668 51856 18459 50315 50074 50131 50646 16109 12082 18204 51438 18458 18387  3769 17055
+ [514]   781  4953 18286 19157 18264  3748  4711  3876 11810  9151 18570 18672  9021 51380 18510 21612 55934  2849 55708 18561 18626 18519 50310 52641 18398 18341  5078
+ [541]  4663  4338 19885 18528 18420  3792  3675  4868 18624 25708 18639  6139 12065 15903  8238 18537 22944  9107 51951 16234 25360 18682 25312 18318 52104 50633 18632
+ [568] 17568 15902 21022 50909 18450 16274 26451  9159 11206 25096 20676 51785 50597 52061 22870  4954 53909 51213  5042 52206 22998 51093 16256 55481  2443 54176 18316
+ [595] 50012  1946  3659 15945 18688 18517 18492 18260 17305 18577 22353 19116 50327 18184  2455  3780 15659  4349 50842 21183 55788 50998 18573  4481  8034 50101 16551
+ [622]  8164 58316 23332  9575 25428 17725  4284 17211 10332 50560  9068 22843  8875  9530  2326  3979 22979 21598  5997 22494 18661 22234 25200 50037 17343 16251 50112
+ [649] 51346 52473 19443 50722    17 25298 16530 22391 10408 24654 54656  6170 51427 18649 25088 51828 18426 18454 25111 18477 50242 17700  5464 50420 18506 21841 18331
+ [676] 18669 60630  6159 10289 18335 53092 18634 50234  9152 61239  1289 51086 18433 12639  3737 51473 12327 18498 17876 19968  9570 18322 13265 21007 25258 17228  4680
+ [703]  9224  8227 17746 17870 25085 50176 51849 16265 18508 23099  9415 18328 18644  6387 25793 51884 26517 18703 18207 19323 18652 59081 18165  4860 16240  8621 21142
+ [730] 25393 19022 26432 25130 50590 17129 21119  6475  4836 16212 50370 21083 55634 20846  4687 18610 55101 17454 52469  9136 18428  9262 16521 18637  4281 18167 19776
+ [757]  9249  4556 17095 18354 25476   389 50745 22312 17138 52737  8380 51482 18071 51218  4585  9142 18676   719 50096 25382 18261  4033 55744  9204 22816 21056  3171
+ [784]  8229  9256 25341 56295  4519 55179 19102 50395  4655 18307 18356 54168 17934  4425  3523 50060  5040   469  9624 18568 22271  9215  7229  5725 18514  2230 50714
+ [811] 18447 53716  8627 17456 54571 25458 51364  8894 18357 22531 19297  7231 22313 15921 11530 17899 22527 18333 18630 51977  4624 25473  9455 18527 18462 14074 25234
+ [838] 18456 18199 23322  5979 16261 18396  9460 51727 23994 59935 18254 22512 18385 25508 22550 18345  5482  6859 19492 18321 18520 51434 18631 52899  3208 22831 21292
+ [865]  4416 23323 23016 24410 18658 50358  7693  3571 52785   300 50076 50645 25561 51230 51934 11878  6483  4278 16439  9140 18436  8647 53989 25420 11403 11134  4119
+ [892] 25364  1090  4555  9286  6158 21238 55545 16514 51765 51241  3827  9830  3564 18483  4133 26395 18288  3560 54763 50135  3871 10563  4031 23003 18310 17956 56462
+ [919]  1087  4094  4603 16424  4463 52706 21068 17882  9211  3864  9292 25157 17247  9771 22474   476  4262 24122 16350 50481  6239 16992  5124 17115  3946 51910  4448
+ [946] 21435 19013  3815 18329 18337 50365  2748 13128  3080  9285 51954  9087 51449 16390 50325 18209 50553  4023 21731 51412 50221  4866  9264  3580 25453  4725 16131
+ [973] 50188  4677 50189  4382 10541  5990  6674 50430 53756 50592 54030 21190 26770  9255  4432  9960  3812 17887 50241 15996  4543  5407  4490 50168 50572 15939 25109
+[1000] 51251
+ [ reached getOption("max.print") -- omitted 226 entries ]
+[1] "knn_prc_test_pred"
+  [1] 18236 50050 3853  18446 18347 18166 18591 51147 SVM_Predictions 50230 18225 18330 18675 9831  18194 18230 25500 50310 50012 25737 18426 18407 18602 4868  25180 50183 4551 
+ [28] 18649 18560 50087 50330 18237 50688 18492 1450  18559 18555 18532 18498 18685 18364 21596 18202 18295 18696 50025 18376 50355 50049 18258 18245 6399  50453 18670
+ [55] 18509 25281 22234 18289 18406 18491 18405 22552 55100 5407  50903 18169 50615 16261 50449 18418 18654 18604 18352 18455 54479 18294 18427 18366 51624 18674 50020
+ [82] 18700 18282 50136 18342 18317 18575 18590 50064 18211 23055 52819 18558 18171 18369 18276 54063 18408 59747 18243 4033  25121 18249 SVM_Predictions 18517 18437 50331 3528 
+[109] 51239 50181 18246 18550 18323 18460 18233 18371 3564  18439 50701 18272 315   18214 50100 4976  18447 50232 18548 18217 18639 22313 18328 1646  18396 18240 18250
+[136] 50112 25372 50083 18419 6907  53062 18367 18339 23141 51240 18307 50212 25466 18554 25111 22355 18645 18578 4570  18107 18598 18348 51730 18434 50831 5007  50569
+[163] 18178 18251 18541 18566 5000  18624 20454 18535 50821 25490 18660 50542 4866  18238 18401 50003 18397 18268 18452 51629 12293 18557 51041 18296 18318 50573 18545
+[190] 17060 18504 50781 18483 50625 9321  17682 SVM_Predictions 50076 18395 18536 54705 5336  18458 4384  18389 18422 6963  18553 18207 18522 18534 18322 18326 18441 50250 25317
+[217] 50515 18161 25283 18267 20935 18597 50301 18586 18218 50693 51854 18505 18232 17097 50074 50920 18362 16386 18416 18343 24038 9529  11205 1429  52554 18261 23965
+[244] 3769  18320 18208 18577 18673 18658 18643 22483 18300 18690 18617 18697 18305 23099 18345 25294 18501 18216 18600 18632 18683 18213 19606 17275 18568 18485 18499
+[271] 7366  50722 18635 18603 18493 57595 16482 18297 18163 18508 18254 3749  21352 18647 6247  9224  4800  16219 21408 2642  52510 SVM_Predictions 18173 18374 18468 18644 22843
+[298] 4585  18652 51738 18477 18206 50065 50079 18608 18530 18473 17584 9283  18526 4657  18599 57768 22342 51733 53299 18475 52061 9244  50056 51218 18252 18438 17188
+[325] 18302 18280 61410 5738  25285 17640 18204 18680 5486  18244 18266 22934 781   18587 50166 60793 18358 18192 9292  50795 50302 18314 51912 18308 25475 17636 8269 
+[352] 50011 2734  6159  24654 21214 50037 23105 18336 17433 51785 18618 18321 10088 25072 15673 3172  19131 18382 18420 51639 4496  18195 9241  50922 2247  18255 18398
+[379] 18372 25130 8366  15903 4546  4312  18677 52954 18316 50244 18260 51186 9503  20153 18519 4005  18494 5078  18661 18454 18450 51023 20829 53092 21178 3812  9634 
+[406] 18669 54571 51438 18657 50091 18495 26201 51749 4760  6475  16234 50338 18582 50131 18183 5001  50222 9152  22412 8590  52021 563   4014  3748  50909 13929 18412
+[433] 18672 23535 51247 54310 23168 21800 13927 3327  52555 50933 8570  19155 3622  9046  1084  18337 1647  5042  50241 18123 51557 18528 4737  50096 5005  17486 18165
+[460] 9249  53610 21095 50150 4914  18281 26078 18393 50240 18698 25364 25175 25377 25084 18379 18663 50846 18286 4690  5488  SVM_Predictions 3527  59935 18659 1872  18484 18222
+[487] 3161  50280 577   18227 4262  56801 25191 18310 25230 16438 9252  18203 25249 18199 4815  6158  331   25492 18327 53433 9148  16062 766   23623 19281 18331 18640
+[514] 52388 51951 5282  16396 21069 3159  18538 18456 4553  25369 25163 17238 51434 2041  17880 9424  3659  9677  9161  50060 3953  50346 51526 25119 18340 19396 18228
+[541] 4416  7857  21068 16045 18436 54563 6813  52205 6239  50398 3556  9151  6126  18196 19150 2596  2210  3574  4700  51849 51650 51867 17177 26726 18699 25459 3632 
+[568] 19971 18346 3827  50827 18410 SVM_Predictions 19885 18338 3568  18571 24029 51452 9307  23271 50173 50755 18174 50010 18543 50917 25225 16464 23054 52303 3570  18432 25371
+[595] 4568  21805 21142 4686  9260  24005 16507 12211 52806 52757 50517 9157  18442 4381  8380  55179 5126  16109 50514 5150  21793 18279 18514 18390 9128  18375 8166 
+[622] 4639  9301  18513 18570 54168 18311 3133 
+2056 Levels: 5 17 34 51 124 127 133 135 137 245 255 257 315 331 349 358 438 481 525 530 540 563 577 713 727 758 766 769 781 786 804 927 928 977 1031 1048 1084 ... 61442
+[1] "NB_Actual_Attri_Values"
+   [1] 18236 10216 18558 18446 15244 18166 18591 58523 18269  9214 18427 18330  9139  2333 25278 18230 18585  3735 18587  9563 18320 18294 18554 25387 18327 18243  2734
+  [28] 18250 18541 55100 18246 24093 50688 52279 18590 18559 18555 18532 50726 50080 51639 18358 18208 18202 18295 18495 18376  3762 18557 18258 18245 18346 18683 18670
+  [55] 18509 18412 18623 18696 18289 18406 50961 51318 25191 18405 50611 18203 50903 18169 51730 18211 50449 18418 18654 18604 18352 18657 18362 22361 18366 50922 50958
+  [82] 51624 16202 51608 18343 18282 61118 18677 18589 18432 50064 18173 59747 18685 18700 18171 18222 18185 54063 18675 18233 18342 18397 22559  9070  4934 18494 50437
+ [109] 22359 21094 18439 50331 10943 18553 50181 18550 18680  9130 18369 18460 18698 18674 18371 23058 50512 18663 18484 50701  4377 17191  5999 18372 50049 18232 54886
+ [136] 18163  4423  4657 18225 50901 25475 18348 18485 18374 20898 52128 50232 18548 51177 50029 18217  1344 18545 54606 50087 18597 18240  9831 18297 58637 18673 56531
+ [163] 51239 50083 18419 16849  4828 18367 18389 50864 19095 18252 50569  3716 52205 17137  4786  2105 18645 18578 51240 18618  9557  2657 18602 23143 58876 18434 18598
+ [190] 23329 25366 50359 51578 18206   593 18347   255 50202 18660 18280  2763  1083 50026  3683 22552 18603 18408 18340 18443 50759 18238 18401 50003 18326  3807 50212
+ [217] 18268  3841 51733 18452 50781 17886 18616  5000 22307 18422 18296   181 16783 16414 22535 50025 56448 26361 20853 54563  7992 18178 18218 18475 18505 18526 18699
+ [244]  7864 18504 18575 18530  6655 18183 50625 17163 17097  7287 56542  4514 50821 17081 18690 51710 18170 18364 17655 18650 22444 18686 25204 16136  3682 17320 54705
+ [271] 15943 18560 17719 50330 50073 16268 18336   475 18308 18522  9078  5978 18534 51186 21792 19860 51147  5126 21411 18441 18237 18393 51985 16432 18284 21242 50050
+ [298] 21240  5641 18489 18499 18267 16763 18566 50053  3172 50453 18586 18375  9105 50693 50143 23341 50542 21172 53651 50362 52954 18190 17486  8152  4001 25156 17641
+ [325] 50294 16326 23072 50963 50540 51060 25466   499 52554 50250 50329 18194 20557  3062 50136  4422 10147  9073 52819 53084  8357 11872 25078 17307 18228 26420  5047
+ [352] 17042 18617 18640 16793 50075 18636 16168 50223 18300   474 18479  9774 18531 18501 22364 18188 18187  9161 18213 18192 18455 18249 18196 18339  5102 53088 17584
+ [379]  3601 22827  4568 12931 18416 18647  5260 18493 17296    34  9128 16008 18195 24553 16036 17537  2432 50515 50056  8112  3858 21021 25098 53585  4545 25272 50381
+ [406]  3811 18305 16399 53862 18395 50632  3908 52555 10266 18323 18425  6620 52388 18442 25223 25431 17108  6101 18468 18279  9244 18464  9267 18491 18481  4662 55419
+ [433]  3756 18648 51535 19608 16385 51738 50996  5003 18255 18697 19312 18292 26344 18538 18547 16128 22311 18536 50583 18581  4639 18161 15836 23168 18281 18437 18608
+ [460] 18272 16010 18311 53336  9077 18599  4560 17060  4020  9230 53869 57714 18314 50138 16107 18317 50930  9678 52003 23146 18635   245 18600  6399 50642 52297 54192
+ [487] 23623 12305 18407  9344  4800 52021 57524  3842 18244 60892 18438 18302 55668 51856 18459 50315 50074 50131 50646 16109 12082 18204 51438 18458 18387  3769 17055
+ [514]   781  4953 18286 19157 18264  3748  4711  3876 11810  9151 18570 18672  9021 51380 18510 21612 55934  2849 55708 18561 18626 18519 50310 52641 18398 18341  5078
+ [541]  4663  4338 19885 18528 18420  3792  3675  4868 18624 25708 18639  6139 12065 15903  8238 18537 22944  9107 51951 16234 25360 18682 25312 18318 52104 50633 18632
+ [568] 17568 15902 21022 50909 18450 16274 26451  9159 11206 25096 20676 51785 50597 52061 22870  4954 53909 51213  5042 52206 22998 51093 16256 55481  2443 54176 18316
+ [595] 50012  1946  3659 15945 18688 18517 18492 18260 17305 18577 22353 19116 50327 18184  2455  3780 15659  4349 50842 21183 55788 50998 18573  4481  8034 50101 16551
+ [622]  8164 58316 23332  9575 25428 17725  4284 17211 10332 50560  9068 22843  8875  9530  2326  3979 22979 21598  5997 22494 18661 22234 25200 50037 17343 16251 50112
+ [649] 51346 52473 19443 50722    17 25298 16530 22391 10408 24654 54656  6170 51427 18649 25088 51828 18426 18454 25111 18477 50242 17700  5464 50420 18506 21841 18331
+ [676] 18669 60630  6159 10289 18335 53092 18634 50234  9152 61239  1289 51086 18433 12639  3737 51473 12327 18498 17876 19968  9570 18322 13265 21007 25258 17228  4680
+ [703]  9224  8227 17746 17870 25085 50176 51849 16265 18508 23099  9415 18328 18644  6387 25793 51884 26517 18703 18207 19323 18652 59081 18165  4860 16240  8621 21142
+ [730] 25393 19022 26432 25130 50590 17129 21119  6475  4836 16212 50370 21083 55634 20846  4687 18610 55101 17454 52469  9136 18428  9262 16521 18637  4281 18167 19776
+ [757]  9249  4556 17095 18354 25476   389 50745 22312 17138 52737  8380 51482 18071 51218  4585  9142 18676   719 50096 25382 18261  4033 55744  9204 22816 21056  3171
+ [784]  8229  9256 25341 56295  4519 55179 19102 50395  4655 18307 18356 54168 17934  4425  3523 50060  5040   469  9624 18568 22271  9215  7229  5725 18514  2230 50714
+ [811] 18447 53716  8627 17456 54571 25458 51364  8894 18357 22531 19297  7231 22313 15921 11530 17899 22527 18333 18630 51977  4624 25473  9455 18527 18462 14074 25234
+ [838] 18456 18199 23322  5979 16261 18396  9460 51727 23994 59935 18254 22512 18385 25508 22550 18345  5482  6859 19492 18321 18520 51434 18631 52899  3208 22831 21292
+ [865]  4416 23323 23016 24410 18658 50358  7693  3571 52785   300 50076 50645 25561 51230 51934 11878  6483  4278 16439  9140 18436  8647 53989 25420 11403 11134  4119
+ [892] 25364  1090  4555  9286  6158 21238 55545 16514 51765 51241  3827  9830  3564 18483  4133 26395 18288  3560 54763 50135  3871 10563  4031 23003 18310 17956 56462
+ [919]  1087  4094  4603 16424  4463 52706 21068 17882  9211  3864  9292 25157 17247  9771 22474   476  4262 24122 16350 50481  6239 16992  5124 17115  3946 51910  4448
+ [946] 21435 19013  3815 18329 18337 50365  2748 13128  3080  9285 51954  9087 51449 16390 50325 18209 50553  4023 21731 51412 50221  4866  9264  3580 25453  4725 16131
+ [973] 50188  4677 50189  4382 10541  5990  6674 50430 53756 50592 54030 21190 26770  9255  4432  9960  3812 17887 50241 15996  4543  5407  4490 50168 50572 15939 25109
+[1000] 51251
+ [ reached getOption("max.print") -- omitted 226 entries ]
+[1] "DT_Actual_Attri_Values"
+   [1] 18236 10216 18558 18446 15244 18166 18591 58523 18269  9214 18427 18330  9139  2333 25278 18230 18585  3735 18587  9563 18320 18294 18554 25387 18327 18243  2734
+  [28] 18250 18541 55100 18246 24093 50688 52279 18590 18559 18555 18532 50726 50080 51639 18358 18208 18202 18295 18495 18376  3762 18557 18258 18245 18346 18683 18670
+  [55] 18509 18412 18623 18696 18289 18406 50961 51318 25191 18405 50611 18203 50903 18169 51730 18211 50449 18418 18654 18604 18352 18657 18362 22361 18366 50922 50958
+  [82] 51624 16202 51608 18343 18282 61118 18677 18589 18432 50064 18173 59747 18685 18700 18171 18222 18185 54063 18675 18233 18342 18397 22559  9070  4934 18494 50437
+ [109] 22359 21094 18439 50331 10943 18553 50181 18550 18680  9130 18369 18460 18698 18674 18371 23058 50512 18663 18484 50701  4377 17191  5999 18372 50049 18232 54886
+ [136] 18163  4423  4657 18225 50901 25475 18348 18485 18374 20898 52128 50232 18548 51177 50029 18217  1344 18545 54606 50087 18597 18240  9831 18297 58637 18673 56531
+ [163] 51239 50083 18419 16849  4828 18367 18389 50864 19095 18252 50569  3716 52205 17137  4786  2105 18645 18578 51240 18618  9557  2657 18602 23143 58876 18434 18598
+ [190] 23329 25366 50359 51578 18206   593 18347   255 50202 18660 18280  2763  1083 50026  3683 22552 18603 18408 18340 18443 50759 18238 18401 50003 18326  3807 50212
+ [217] 18268  3841 51733 18452 50781 17886 18616  5000 22307 18422 18296   181 16783 16414 22535 50025 56448 26361 20853 54563  7992 18178 18218 18475 18505 18526 18699
+ [244]  7864 18504 18575 18530  6655 18183 50625 17163 17097  7287 56542  4514 50821 17081 18690 51710 18170 18364 17655 18650 22444 18686 25204 16136  3682 17320 54705
+ [271] 15943 18560 17719 50330 50073 16268 18336   475 18308 18522  9078  5978 18534 51186 21792 19860 51147  5126 21411 18441 18237 18393 51985 16432 18284 21242 50050
+ [298] 21240  5641 18489 18499 18267 16763 18566 50053  3172 50453 18586 18375  9105 50693 50143 23341 50542 21172 53651 50362 52954 18190 17486  8152  4001 25156 17641
+ [325] 50294 16326 23072 50963 50540 51060 25466   499 52554 50250 50329 18194 20557  3062 50136  4422 10147  9073 52819 53084  8357 11872 25078 17307 18228 26420  5047
+ [352] 17042 18617 18640 16793 50075 18636 16168 50223 18300   474 18479  9774 18531 18501 22364 18188 18187  9161 18213 18192 18455 18249 18196 18339  5102 53088 17584
+ [379]  3601 22827  4568 12931 18416 18647  5260 18493 17296    34  9128 16008 18195 24553 16036 17537  2432 50515 50056  8112  3858 21021 25098 53585  4545 25272 50381
+ [406]  3811 18305 16399 53862 18395 50632  3908 52555 10266 18323 18425  6620 52388 18442 25223 25431 17108  6101 18468 18279  9244 18464  9267 18491 18481  4662 55419
+ [433]  3756 18648 51535 19608 16385 51738 50996  5003 18255 18697 19312 18292 26344 18538 18547 16128 22311 18536 50583 18581  4639 18161 15836 23168 18281 18437 18608
+ [460] 18272 16010 18311 53336  9077 18599  4560 17060  4020  9230 53869 57714 18314 50138 16107 18317 50930  9678 52003 23146 18635   245 18600  6399 50642 52297 54192
+ [487] 23623 12305 18407  9344  4800 52021 57524  3842 18244 60892 18438 18302 55668 51856 18459 50315 50074 50131 50646 16109 12082 18204 51438 18458 18387  3769 17055
+ [514]   781  4953 18286 19157 18264  3748  4711  3876 11810  9151 18570 18672  9021 51380 18510 21612 55934  2849 55708 18561 18626 18519 50310 52641 18398 18341  5078
+ [541]  4663  4338 19885 18528 18420  3792  3675  4868 18624 25708 18639  6139 12065 15903  8238 18537 22944  9107 51951 16234 25360 18682 25312 18318 52104 50633 18632
+ [568] 17568 15902 21022 50909 18450 16274 26451  9159 11206 25096 20676 51785 50597 52061 22870  4954 53909 51213  5042 52206 22998 51093 16256 55481  2443 54176 18316
+ [595] 50012  1946  3659 15945 18688 18517 18492 18260 17305 18577 22353 19116 50327 18184  2455  3780 15659  4349 50842 21183 55788 50998 18573  4481  8034 50101 16551
+ [622]  8164 58316 23332  9575 25428 17725  4284 17211 10332 50560  9068 22843  8875  9530  2326  3979 22979 21598  5997 22494 18661 22234 25200 50037 17343 16251 50112
+ [649] 51346 52473 19443 50722    17 25298 16530 22391 10408 24654 54656  6170 51427 18649 25088 51828 18426 18454 25111 18477 50242 17700  5464 50420 18506 21841 18331
+ [676] 18669 60630  6159 10289 18335 53092 18634 50234  9152 61239  1289 51086 18433 12639  3737 51473 12327 18498 17876 19968  9570 18322 13265 21007 25258 17228  4680
+ [703]  9224  8227 17746 17870 25085 50176 51849 16265 18508 23099  9415 18328 18644  6387 25793 51884 26517 18703 18207 19323 18652 59081 18165  4860 16240  8621 21142
+ [730] 25393 19022 26432 25130 50590 17129 21119  6475  4836 16212 50370 21083 55634 20846  4687 18610 55101 17454 52469  9136 18428  9262 16521 18637  4281 18167 19776
+ [757]  9249  4556 17095 18354 25476   389 50745 22312 17138 52737  8380 51482 18071 51218  4585  9142 18676   719 50096 25382 18261  4033 55744  9204 22816 21056  3171
+ [784]  8229  9256 25341 56295  4519 55179 19102 50395  4655 18307 18356 54168 17934  4425  3523 50060  5040   469  9624 18568 22271  9215  7229  5725 18514  2230 50714
+ [811] 18447 53716  8627 17456 54571 25458 51364  8894 18357 22531 19297  7231 22313 15921 11530 17899 22527 18333 18630 51977  4624 25473  9455 18527 18462 14074 25234
+ [838] 18456 18199 23322  5979 16261 18396  9460 51727 23994 59935 18254 22512 18385 25508 22550 18345  5482  6859 19492 18321 18520 51434 18631 52899  3208 22831 21292
+ [865]  4416 23323 23016 24410 18658 50358  7693  3571 52785   300 50076 50645 25561 51230 51934 11878  6483  4278 16439  9140 18436  8647 53989 25420 11403 11134  4119
+ [892] 25364  1090  4555  9286  6158 21238 55545 16514 51765 51241  3827  9830  3564 18483  4133 26395 18288  3560 54763 50135  3871 10563  4031 23003 18310 17956 56462
+ [919]  1087  4094  4603 16424  4463 52706 21068 17882  9211  3864  9292 25157 17247  9771 22474   476  4262 24122 16350 50481  6239 16992  5124 17115  3946 51910  4448
+ [946] 21435 19013  3815 18329 18337 50365  2748 13128  3080  9285 51954  9087 51449 16390 50325 18209 50553  4023 21731 51412 50221  4866  9264  3580 25453  4725 16131
+ [973] 50188  4677 50189  4382 10541  5990  6674 50430 53756 50592 54030 21190 26770  9255  4432  9960  3812 17887 50241 15996  4543  5407  4490 50168 50572 15939 25109
+[1000] 51251
+ [ reached getOption("max.print") -- omitted 226 entries ]
+Warning: Variable(s) ‘Column_246’ and ‘Column_266’ and ‘Column_282’ and ‘Column_288’ and ‘Column_289’ and ‘Column_291’ and ‘Column_296’ and ‘Column_297’ and ‘Column_307’ and ‘Column_309’ and ‘Column_314’ and ‘Column_325’ and ‘Column_338’ and ‘Column_342’ and ‘Column_350’ and ‘Column_370’ and ‘Column_385’ and ‘Column_387’ and ‘Column_415’ and ‘Column_427’ and ‘Column_433’ and ‘Column_440’ and ‘Column_455’ and ‘Column_456’ and ‘Column_462’ and ‘Column_463’ and ‘Column_476’ and ‘Column_482’ and ‘Column_483’ and ‘Column_488’ and ‘Column_522’ and ‘Column_556’ and ‘Column_562’ and ‘Column_586’ and ‘Column_587’ and ‘Column_591’ and ‘Column_612’ and ‘Column_623’ and ‘Column_627’ and ‘Column_666’ and ‘Column_668’ and ‘Column_670’ and ‘Column_691’ and ‘Column_706’ and ‘Column_762’ and ‘Column_791’ and ‘Column_793’ and ‘Column_804’ and ‘Column_882’ and ‘Column_902’ and ‘Column_906’ and ‘Column_911’ and ‘Column_931’ and ‘Column_932’ and ‘Column_935’ and ‘Column_938’ and ‘Column_953’ and ‘Column_966’ and ‘Column_983’ and ‘Column_1002’ and ‘Column_1004’ and ‘Column_1014’ and ‘Column_1022’ and ‘Column_1031’ and ‘Column_1039’ and ‘Column_1042’ and ‘Column_1044’ and ‘Column_1065’ and ‘Column_1082’ and ‘Column_1119’ and ‘Column_1121’ and ‘Column_1127’ and ‘Column_1130’ and ‘Column_1140’ and ‘Column_1146’ and ‘Column_1148’ and ‘Column_1177’ and ‘Column_1180’ and ‘Column_1205’ and ‘Column_1218’ and ‘Column_1231’ and ‘Column_1260’ and ‘Column_1263’ and ‘Column_1288’ and ‘Column_1299’ and ‘Column_1305’ and ‘Column_1312’ and ‘Column_1318’ and ‘Column_1327’ and ‘Column_1381’ and ‘Column_1444’ and ‘Column_1467’ and ‘Column_1468’ and ‘Column_1473’ and ‘Column_1526’ and ‘Column_1532’ and ‘Column_1577’ and ‘Column_1582’ and ‘Column_1591’ and ‘Column_1601’ and ‘Column_1635’ and ‘Column_1638’ and ‘Column_1661’ and ‘Column_1698’ and ‘Column_1707’ and ‘Column_1740’ and ‘Column_1759’ and ‘Column_1767’ and ‘Column_1777’ and ‘Column_1787’ and ‘Column_1811’ and ‘Column_1843’ and ‘Column_1873’ and ‘Column_1882’ and ‘Column_1887’ and ‘Column_1893’ and ‘Column_1900’ and ‘Column_1923’ and ‘Column_1950’ and ‘Column_2036’ and ‘Column_2041’ and ‘Column_2063’ and ‘Column_2077’ and ‘Column_2090’ and ‘Column_2091’ and ‘Column_2113’ and ‘Column_2173’ and ‘Column_2211’ and ‘Column_2220’ and ‘Column_2221’ and ‘Column_2223’ and ‘Column_2232’ and ‘Column_2281’ and ‘Column_2285’ and ‘Column_2312’ and ‘Column_2332’ and ‘Column_2357’ and ‘Column_2362’ and ‘Column_2379’ and ‘Column_2400’ and ‘Column_2423’ and ‘Column_2454’ and ‘Column_2476’ and ‘Column_2502’ and ‘Column_2512’ and ‘Column_2523’ and ‘Column_2597’ and ‘Column_2602’ and ‘Column_2653’ and ‘Column_2655’ and ‘Column_2728’ and ‘Column_2761’ constant. Cannot scale data.Error: vector memory exhausted (limit reached?)
