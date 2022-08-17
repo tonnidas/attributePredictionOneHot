@@ -2,6 +2,8 @@
 
 This is the python version of the [repository](https://github.com/sarwanpasha/Attriubute-Prediction-Code) by SarWwan Ali. It was initially written in R. 
 
+Original Paper Link: [Predicting Attributes of Nodes Using Network Structure](https://arxiv.org/pdf/1912.12264.pdf)
+
 Input: 
 1. Graph edges list
 2. Graph attribute list
